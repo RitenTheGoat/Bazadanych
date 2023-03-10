@@ -61,14 +61,6 @@ const sql = `INSERT INTO tabela1 (imie,nazwisko,klasa) VALUES ('${imie}','${nazw
         }res.send("dodano")
     })
 
-
-
-
-
-
-
-
-
 })
 
 app.get("/select2", function(req,res){
